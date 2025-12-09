@@ -1,4 +1,4 @@
-## D1 Create User With Shell
+## Day1 Create User With Shell
 ### 1. Connect to App Server 2
 ```
 ssh mangala@stapp02
