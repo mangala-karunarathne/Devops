@@ -5,21 +5,21 @@
 
 `ssh tony@stapp01`
 `sudo systemctl status httpd`
-sudo journalctl -u httpd -n 200 --no-pager
-sudo apachectl configtest
-sudo netstat -tulpn | grep :3000
-systemctl stop sendmail
-sudo -i
-systemctl stop sendmail
-systemctl disable sendmail
+`sudo journalctl -u httpd -n 200 --no-pager`
+`sudo apachectl configtest`
+`sudo netstat -tulpn | grep :3000`
+`systemctl stop sendmail`
+`sudo -i`
+`systemctl stop sendmail`
+`systemctl disable sendmail`
 
-systemctl restart httpd
+`systemctl restart httpd`
 
-sudo netstat -tulpn | grep :3003
+`sudo netstat -tulpn | grep :3003`
 
-ip a
+`ip a`
 
-sudo iptables -I INPUT -p tcp -s 172.16.238.3 --dport 3000 -j ACCEPT
+`sudo iptables -I INPUT -p tcp -s 172.16.238.3 --dport 3000 -j ACCEPT`
 
 ### Save and restart iptables
 ### 
@@ -29,7 +29,10 @@ sudo iptables -I INPUT -p tcp -s 172.16.238.3 --dport 3000 -j ACCEPT
 ### 
 `sudo systemctl restart iptables`
 
-
+### Allow the IP 172.16.238.3 to access port 3000 on my server.
+```
+sudo iptables -I INPUT -p tcp -s 172.16.238.3 --dport 3000 -j ACCEPT
+```
 
 
 
