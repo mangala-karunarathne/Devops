@@ -1,5 +1,8 @@
 ### App Server 1 - tony
 ```
+ssh tony@stapp01
+```
+```
 stapp01
 ```
 ```
@@ -8,11 +11,11 @@ tony
 ```
 Ir0nM@n	
 ```
-```
-ssh tony@stapp01
-```
-### App Server 2 - steve
 
+### App Server 2 - steve
+```
+ssh steve@stapp02
+```
 ```
 stapp02
 ```
@@ -22,10 +25,11 @@ steve
 ```
 Am3ric@
 ```
-```
-ssh steve@stapp02
-```
+
 ### App Server 3 - banner
+```
+ssh banner@stapp03
+```
 ```
 stapp03
 ```
@@ -35,9 +39,7 @@ banner
 ```
 BigGr33n
 ```
-```
-ssh banner@stapp03
-```
+
 ### jump_host Server - thor
 
 ```
