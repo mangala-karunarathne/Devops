@@ -3,24 +3,11 @@
 ssh tony@stapp01
 ```
 ```
-stapp01
-```
-```
-tony
-```
-```
 Ir0nM@n	
 ```
-
 ### App Server 2 - steve
 ```
 ssh steve@stapp02
-```
-```
-stapp02
-```
-```
-steve
 ```
 ```
 Am3ric@
@@ -31,28 +18,15 @@ Am3ric@
 ssh banner@stapp03
 ```
 ```
-stapp03
-```
-```
-banner
-```
-```
 BigGr33n
 ```
 
 ### jump_host Server - thor
-
 ```
-jump_host
-```
-```
-thor
+ssh thor@jump_host
 ```
 ```
 mjolnir123
-```
-```
-ssh thor@jump_host
 ```
 
 ### Port Running Check:
