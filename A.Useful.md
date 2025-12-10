@@ -1,3 +1,4 @@
+### App Server 1 - tony
 ```
 stapp01
 ```
@@ -10,30 +11,8 @@ Ir0nM@n
 ```
 ssh tony@stapp01
 ```
-```
-stapp03
-```
-```
-banner
-```
-```
-BigGr33n
-```
-```
-ssh banner@stapp03
-```
-```
-jump_host
-```
-```
-thor
-```
-```
-mjolnir123
-```
-```
-ssh thor@jump_host
-```
+### App Server 2 - steve
+
 ```
 stapp02
 ```
@@ -46,6 +25,34 @@ Am3ric@
 ```
 ssh steve@stapp02
 ```
+### App Server 3 - banner
+```
+stapp03
+```
+```
+banner
+```
+```
+BigGr33n
+```
+```
+ssh banner@stapp03
+```
+### jump_host Server - thor
+
+```
+jump_host
+```
+```
+thor
+```
+```
+mjolnir123
+```
+```
+ssh thor@jump_host
+```
+
 ### Port Running Check:
 ```
 telnet stapp01 8082
