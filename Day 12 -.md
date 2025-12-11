@@ -17,12 +17,12 @@ sudo systemctl start iptables
 ```
 ## 2. Block port 6300 for everyone except LBR host
 ### Assume LBR host IP: Usually in KodeKloud tasks, LBR host is load balancer, example IP: 172.16.238.14
-(Use the correct LBR IP if different.)
+(Use the correct LBR IP if different. 8088 for 3rd try as it changes time to time- scenario port changed.. lol)
 ```
-sudo iptables -A INPUT -p tcp --dport 6300 -s 172.16.238.14 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 8088 -s 172.16.238.14 -j ACCEPT
 ```
 ```
-sudo iptables -A INPUT -p tcp --dport 6300 -j DROP
+sudo iptables -A INPUT -p tcp --dport 8088 -j DROP
 ```
 ## 3. Make rules persistent (survive reboot)
 ```
