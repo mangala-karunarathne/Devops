@@ -28,6 +28,13 @@ ssh thor@jump_host
 ```
 mjolnir123
 ```
+### ststor01 Server - natasha
+```
+ssh natasha@ststor01
+```
+```
+Bl@kW
+```
 
 ### Port Running Check:
 ```
