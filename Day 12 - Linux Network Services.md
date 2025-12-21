@@ -15,13 +15,14 @@
 `sudo apachectl configtest`
 ### Check the port in same server ( to check which process is using port 3000 on your server.)
 `sudo netstat -tulpn | grep :3000`
+
 ### Stop a service
 `systemctl stop sendmail`
 ### giving root privilage (root user)
 `sudo -i`
 ### Stop a service
 `systemctl stop sendmail`
-###Desable a service
+### Desable a service
 `systemctl disable sendmail`
 ### Restart a service
 `systemctl restart httpd`
