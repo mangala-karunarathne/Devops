@@ -54,6 +54,8 @@ sudo systemctl restart iptables
 ```
 sudo iptables -L -n --line-numbers
 ```
+#### here the order of ip table from top to bottom matters. Want accept anything above then drop and reject anything based on requirments.
+
 ### Verify Apache is running and listening
 ```
 sudo systemctl status httpd
