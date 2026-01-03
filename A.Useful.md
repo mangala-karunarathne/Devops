@@ -5,12 +5,19 @@ ssh tony@stapp01
 ```
 Ir0nM@n
 ```
+```
+172.16.238.10
+```
+
 ### App Server 2 - steve
 ```
 ssh steve@stapp02
 ```
 ```
 Am3ric@
+```
+```
+172.16.238.11
 ```
 
 ### App Server 3 - banner
@@ -20,6 +27,9 @@ ssh banner@stapp03
 ```
 BigGr33n
 ```
+```
+172.16.238.12
+```
 
 ### jump_host Server - thor
 ```
@@ -28,12 +38,19 @@ ssh thor@jump_host
 ```
 mjolnir123
 ```
+```
+Dynamic
+```
+
 ### ststor01 Server - natasha
 ```
 ssh natasha@ststor01
 ```
 ```
 Bl@kW
+```
+```
+172.16.238.15
 ```
 
 ### Port Running Check:
