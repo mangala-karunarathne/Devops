@@ -31,17 +31,6 @@ BigGr33n
 172.16.238.12
 ```
 
-### jump_host Server - thor
-```
-ssh thor@jump_host
-```
-```
-mjolnir123
-```
-```
-Dynamic
-```
-
 ### ststor01 Server - natasha
 ```
 ssh natasha@ststor01
@@ -51,6 +40,61 @@ Bl@kW
 ```
 ```
 172.16.238.15
+```
+
+### stlb01 Load Balancer Server - loki
+```
+ssh loki@stlb01
+```
+```
+Mischi3f
+```
+```
+172.16.238.14
+```
+
+### stdb01 Server - peter
+```
+ssh peter@stdb01
+```
+```
+Sp!dy
+```
+```
+172.16.239.10
+```
+
+### stbkp01 Server - clint
+```
+ssh clint@stbkp01
+```
+```
+H@wk3y3
+```
+```
+172.16.238.16
+```
+
+### stmail01 Server - groot
+```
+ssh groot@stmail01
+```
+```
+Gr00T123
+```
+```
+172.16.238.17
+```
+
+### jump_host Server - thor
+```
+ssh thor@jump_host
+```
+```
+mjolnir123
+```
+```
+Dynamic
 ```
 
 ### Port Running Check:
