@@ -31,7 +31,7 @@ Git Repository Type: Bare repository
 ## 🚀 Implementation Steps
 ### 1️⃣ Login to the Storage Server
 ```
-Shellssh natasha@ststor01``Show more lines
+Shellssh natasha@ststor01
 ```
 
 ## 2️⃣ Switch to Root User
@@ -46,7 +46,7 @@ yum install git -y
 
 ## 4️⃣ Verify Git Installation
 ```
-git --versionShow more lines
+git --version
 ```
 
 ### ✅ This confirms that Git has been installed successfully on the server.
